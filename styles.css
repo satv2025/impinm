@@ -1,16 +1,18 @@
-@import url('https://imperioinmobiliario.com.ar/fuentes/ImperioInmobiliario.css');
+@import url('https://imperioinmobiliario.com.ar/fuentes/ImperioInmobiliario/ImperioInmobiliario.css');
 
 * {
-    box-sizing: border-box; /* Asegura que el padding y el borde no afecten el ancho de los elementos */
+    box-sizing: border-box;
+    font-family: 'Imperio Inmobiliario';
+    /* Asegura que el padding y el borde no afecten el ancho de los elementos */
 }
 
 body {
-    font-family: 'Imperio Inmobiliario', sans-serif;
     background-image: url('https://imperioinmobiliario.com.ar/pixlr-image-generator-e65dd46f-7f62-47ba-b30f-a9e5d01d8238.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: background-image 1s ease-in-out; /* Transición suave */
+    transition: background-image 1s ease-in-out;
+    /* Transición suave */
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,11 +20,11 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-	margin: 0;
+    margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-	background-size: cover;
+    background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
@@ -80,22 +82,27 @@ body {
     padding: 20px;
     border-radius: 10px;
     flex-grow: 1;
-    overflow: auto; /* Asegura que aparezcan barras de desplazamiento si es necesario */
-    position: relative; /* Necesario para algunos navegadores */
+    overflow: auto;
+    /* Asegura que aparezcan barras de desplazamiento si es necesario */
+    position: relative;
+    /* Necesario para algunos navegadores */
 }
 
 #main-panel::-webkit-scrollbar {
-    width: 8px; /* Grosor de la barra de desplazamiento */
+    width: 8px;
+    /* Grosor de la barra de desplazamiento */
     border-radius: 10px;
 }
 
 #main-panel::-webkit-scrollbar-track {
-    background: #22222200; /* Color de fondo de la barra de desplazamiento */
+    background: #22222200;
+    /* Color de fondo de la barra de desplazamiento */
     border-radius: 10px;
 }
 
 #main-panel::-webkit-scrollbar-thumb {
-    background: #273F78; /* Color del "agarre" de la barra de desplazamiento */
+    background: #273F78;
+    /* Color del "agarre" de la barra de desplazamiento */
     border-radius: 10px;
 }
 
@@ -129,20 +136,18 @@ body {
     padding: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
-    color: #fff !important;!i;!;!;!¿;!;
+    color: #fff !important;
     font-weight: 700;
     text-align: justify;
 }
 
 .descripcion {
     font-weight: 400;
-    text-align: justify;!;!importan;!i;!;!u;!um;!um;!u;!;!;!i;!;
+    text-align: justify;
 }
 
-.descripcion {}
-
 .zone-card h2 {
-    text-align: center !important;!i;!;
+    text-align: center !important;
 }
 
 .zone-card img {
@@ -164,14 +169,16 @@ body {
     transform: scale(1.05);
 }
 
-.property-card img, .market-card img {
+.property-card img,
+.market-card img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.property-card button, .market-card button {
+.property-card button,
+.market-card button {
     margin-top: 10px;
     padding: 10px;
     width: 100%;
@@ -181,10 +188,12 @@ body {
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
-    font-family: 'Imperio Inmobiliario', sans-serif; /* Cambiado a Imperio Inmobiliario */
+    font-family: 'Imperio Inmobiliario', sans-serif;
+    /* Cambiado a Imperio Inmobiliario */
 }
 
-.property-card button:hover, .market-card button:hover {
+.property-card button:hover,
+.market-card button:hover {
     background-color: #0056b3;
 }
 
@@ -211,17 +220,10 @@ h4 {
     line-height: 0px;
 }
 
-button {
-	font-family: 'Imperio Inmobiliario', sans-serif;
-}
-
-div {
-	font-family: 'Imperio Inmobiliario', sans-serif;
-}
-
 /* Panel de Construcción */
 #construction-panel {
-    display: none; /* Oculta el panel por defecto */
+    display: none;
+    /* Oculta el panel por defecto */
     padding: 20px;
     background-color: #f4f4f4;
     border: 1px solid #ddd;
@@ -229,7 +231,8 @@ div {
 }
 
 #construction-panel.active {
-    display: block; /* Muestra el panel cuando está activo */
+    display: block;
+    /* Muestra el panel cuando está activo */
 }
 
 #construction-panel h2 {
@@ -344,13 +347,16 @@ button {
 }
 
 /* Añadir estilos básicos para las habitaciones y el mobiliario */
-.room, .furniture {
+.room,
+.furniture {
     position: absolute;
     border: 1px solid #ccc;
 }
+
 .room {
     background-color: lightblue;
 }
+
 .furniture {
     background-color: brown;
 }
@@ -384,8 +390,8 @@ main {
 }
 
 button {
-	color: #ffffff;
-	font-family; 'Imperio Inmobiliario', sans-serif;
+    color: #ffffff;
+}
 
 #gallery {
     margin-top: 20px;
